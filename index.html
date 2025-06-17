@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cerrajería Jerusalen</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Encabezado -->
+  <header class="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white p-6 flex justify-between items-center shadow-lg">
+  <h1 class="text-2xl font-extrabold tracking-wide">Cerrajería Jerusalen</h1>
+  <nav>
+    <a href="#servicios" class="mr-6 hover:underline hover:text-blue-300 transition">Servicios</a>
+    <a href="#contacto" class="hover:underline hover:text-blue-300 transition">Contacto</a>
+  </nav>
+</header>
+
+  <!-- Sección Principal -->
+  <section class="bg-gradient-to-r from-blue-50 to-blue-100 text-center py-20 px-4">
+  <h2 class="text-5xl font-extrabold text-blue-900 drop-shadow-lg">¡Tu seguridad, nuestra prioridad!</h2>
+  <p class="mt-6 text-xl text-blue-700 max-w-xl mx-auto">Servicio rápido, confiable y profesional las 24 horas del día.</p>
+  <a href="#contacto" class="mt-8 inline-block bg-blue-700 text-white px-8 py-4 rounded-xl shadow-lg hover:bg-blue-900 transform hover:scale-105 transition">Solicitar Servicio</a>
+</section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 bg-white text-center">
+  <h3 class="text-4xl font-extrabold text-blue-900 mb-12">Nuestros Servicios</h3>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-6 max-w-7xl mx-auto">
+    <div class="p-8 rounded-2xl shadow-xl hover:shadow-2xl transition bg-gradient-to-br from-blue-50 to-blue-100 cursor-pointer">
+      <div class="text-7xl mb-6 text-blue-700">🔑</div>
+      <h4 class="text-2xl font-semibold mb-3 text-blue-900">Cambio de Guardas</h4>
+      <p class="text-blue-700">Reemplazamos guardas para motos y vehículos con garantía y precisión.</p>
+    </div>
+    <div class="p-8 rounded-2xl shadow-xl hover:shadow-2xl transition bg-gradient-to-br from-blue-50 to-blue-100 cursor-pointer">
+      <div class="text-7xl mb-6 text-blue-700">🛠️</div>
+      <h4 class="text-2xl font-semibold mb-3 text-blue-900">Duplicado de Llaves</h4>
+      <p class="text-blue-700">Duplicamos llaves para autos, motos y puertas con tecnología de alta precisión.</p>
+    </div>
+    <div class="p-8 rounded-2xl shadow-xl hover:shadow-2xl transition bg-gradient-to-br from-blue-50 to-blue-100 cursor-pointer">
+      <div class="text-7xl mb-6 text-blue-700">🚪</div>
+      <h4 class="text-2xl font-semibold mb-3 text-blue-900">Apertura de Cerraduras</h4>
+      <p class="text-blue-700">Servicio de apertura sin daño, disponible 24/7 para autos y viviendas.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Testimonios / Slogan -->
+  <section class="bg-blue-100 text-center py-12">
+    <h4 class="text-2xl font-semibold text-blue-900">¿Por qué elegirnos?</h4>
+    <p class="mt-4 text-lg text-gray-700 italic">"Brindamos el mejor servicio de cerrajería en la ciudad, con atención inmediata y precios justos."</p>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="bg-white py-16 px-4">
+    <h3 class="text-3xl font-bold text-center text-blue-800 mb-8">Contáctanos</h3>
+    <form class="max-w-xl mx-auto grid gap-4">
+      <input type="text" placeholder="Tu nombre" class="border p-3 rounded-md" required />
+      <input type="tel" placeholder="Número de contacto" class="border p-3 rounded-md" required />
+      <textarea placeholder="¿En qué podemos ayudarte?" class="border p-3 rounded-md" rows="4"></textarea>
+      <button type="submit" class="bg-blue-700 text-white p-3 rounded-md hover:bg-blue-900">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p>&copy; 2025 Cerrajería Jerusalen - Todos los derechos reservados</p>
+    <p>Servicio en Bogotá y alrededores | WhatsApp: 300 123 4567</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
